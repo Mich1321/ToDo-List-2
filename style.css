@@ -1,0 +1,93 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	margin-top: 120px;
+	background-color: grey;
+}
+
+.todo {
+	width: 800px;
+	border: none;
+	border-radius: 5px;
+	background-color: #fff;
+	text-align: center;
+}
+.todo-info {
+	padding: 40px;
+	border-radius: 5px;
+	background-color: royalblue;
+}
+.todo-input {
+	width: 80%;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: none;
+}
+.add-btn {
+	margin-left: 10px;
+	padding: 10px 22px;
+	border: none;
+	border-radius: 5px;
+	font-size: 18px;
+	color: darkgray;
+	transition: background-color 0.3s, color 0.3s;
+	cursor: pointer;
+}
+.add-btn:hover {
+	background-color: darkgray;
+	color: white;
+}
+
+.todo-list {
+	margin: 20px 0;
+}
+.todo-list h2 {
+	margin-bottom: 20px;
+}
+.todo-list p {
+	margin-top: 20px;
+}
+
+.todo-list li {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px;
+	padding-left: 10px;
+	text-align: left;
+	list-style: none;
+	background-color: lightgrey;
+}
+.tools {
+	display: inline-block;
+}
+.tools button {
+	padding: 10px 15px;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.tools button:hover {
+	background-color: antiquewhite;
+}
+
+.delBtn {
+	color: tomato;
+}
+.cmplBtn {
+	color: lime;
+}
+.completed {
+	font-size: 12px;
+	text-decoration: line-through;
+	color: red;
+	font-style: italic;
+}
